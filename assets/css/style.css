@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    background-color:rgb(32, 84, 79);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+}
+.hero img {
+    max-width: 100%;
+    width: 20%;
+}
+
+        .menu{
+            display: flex;
+            justify-content: center;
+            background-color:rgb(26, 68, 64);
+            margin: 0.5%;
+            border-radius: 20px;
+            width: auto;
+            }
+                    .botao-inicio{
+                        justify-content: center;
+                        background-color:rgb(13, 184, 121);
+                        text-align: center;
+                        margin:2%;
+                        border-radius: 20px;
+                        width: 10%;
+                        text-decoration: none;
+                        color:rgb(0, 0, 0);
+                        font-size: 125%;
+                        padding: 0.5%;
+                    }
+                    .botao-curso{
+                        justify-content: center;
+                        background-color:rgb(13, 184, 121);
+                        text-align: center;
+                        margin:2%;
+                        border-radius: 20px;
+                        width: 10%;
+                        text-decoration: none;
+                        color:rgb(0, 0, 0);
+                        font-size: 125%;
+                        padding: 0.5%;
+                    }
+                    .botao-matriz{
+                        justify-content: center;
+                        background-color:rgb(13, 184, 121);
+                        text-align: center;
+                        margin:2%;
+                        border-radius: 20px;
+                        width: 10%;
+                        text-decoration: none;
+                        color:rgb(0, 0, 0);
+                        font-size: 125%;
+                        padding: 0.5%;
+                    }
+                    .botao-disciplinas{
+                        justify-content: center;
+                        background-color:rgb(13, 184, 121);
+                        text-align: center;
+                        margin:2%;
+                        border-radius: 20px;
+                        width: 10%;
+                        text-decoration: none;
+                        color:rgb(0, 0, 0);
+                        font-size: 125%;
+                        padding: 0.5%;
+                    }
+                    .botao-professores{
+                        justify-content: center;
+                        background-color:rgb(13, 184, 121);
+                        text-align: center;
+                        margin:2%;
+                        border-radius: 20px;
+                        width: 10%;
+                        text-decoration: none;
+                        color:rgb(0, 0, 0);
+                        font-size: 125%;
+                        padding: 0.5%;
+                    }
+                    .botao-contato{
+                        justify-content: center;
+                        background-color:rgb(13, 184, 121);
+                        text-align: center;
+                        margin:2%;
+                        border-radius: 20px;
+                        width: 10%;
+                        text-decoration: none;
+                        color:rgb(0, 0, 0);
+                        font-size: 125%;
+                        padding: 0.5%;
+                    }
+                                #inicio-ativo .botao-inicio{
+                                    border: 3px solid white
+                                }
+
+                                #curso-ativo .botao-curso{
+                                    border: 3px solid white
+                                }
+
+                                #matriz-ativo .botao-matriz{
+                                    border: 3px solid white
+                                }
+
+                                #disciplinas-ativo .botao-disciplinas{
+                                    border: 3px solid white
+                                }
+
+                                #professores-ativo .botao-professores{
+                                    border: 3px solid white
+                                }
+
+                                #contato-ativo .botao-contato{
+                                    border: 3px solid white
+                                }
+                                            .botao-inicio:hover{
+                                                background:linear-gradient(to bottom, #0d7b55);
+                                                color: rgb(255, 255, 255);
+                                                font-weight: 600;
+                                            }
+                                            .botao-curso:hover{
+                                                background:linear-gradient(to bottom, #0d7b55);
+                                                color: rgb(255, 255, 255);
+                                                font-weight: 600;
+                                            }
+                                            .botao-matriz:hover{
+                                                background:linear-gradient(to bottom, #0d7b55);
+                                                color: rgb(255, 255, 255);
+                                                font-weight: 600;
+                                            }
+                                            .botao-disciplinas:hover{
+                                                background:linear-gradient(to bottom, #0d7b55);
+                                                color: rgb(255, 255, 255);
+                                                font-weight: 600;
+                                            }
+                                            .botao-professores:hover{
+                                                background:linear-gradient(to bottom, #0d7b55);
+                                                color: rgb(255, 255, 255);
+                                                font-weight: 600;
+                                            }
+                                            .botao-contato:hover{
+                                                background:linear-gradient(to bottom, #0d7b55);
+                                                color: rgb(255, 255, 255);
+                                                font-weight: 600;
+                                            }
+.contactar{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(26, 68, 64);
+    justify-content: center;
+    width: 30%;
+    position:relative;
+    left:35%;
+    border: 10px solid rgb(26, 68, 64);
+    border-radius: 20px;
+}
+            .nome{
+                padding: 2%;
+                margin:1%;
+                text-align: center;
+                border-radius: 20px;
+                background-color: rgb(255, 255, 255);
+            }
+            .email{
+                padding: 2%;
+                margin:1%;
+                border-radius: 20px;
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+            }
+            .perfil{
+                padding: 2%;
+                margin:1%;
+                border-radius: 20px;
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+            }
+            .checkbox{
+                padding: 2%;
+                margin:1%;
+                border-radius: 20px;
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+            }
+            .texto{
+                outline: none;
+                resize: none;
+                font-size: 120%;
+                padding: 1.2%;
+                background-color: rgb(255, 255, 255);
+                border-radius: 10px;
+                margin:1.2%;
+            }
+            .enviar{
+                border: none;
+                outline: none;
+                padding: 2%;
+                margin: 1%;
+                border-radius: 20px;
+                text-align: center;
+                background-color: rgb(13, 184, 121);
+                font-size: 120%
+            }
+
+            .enviar:hover{
+                border: none;
+                background:linear-gradient(to bottom, #0d7b55);
+                color: rgb(255, 255, 255);
+                font-weight: 600;
+            }
